@@ -97,6 +97,9 @@ i {
   #shop #b{
     font-size:smaller;
   }
+    #footericon {
+  margin-left: -60px !important;  
+ }
   
 }
 
