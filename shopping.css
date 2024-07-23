@@ -1,3 +1,6 @@
+html,body{
+  overflow-x: hidden;
+}
 .latest{
   position: absolute;
   color: #fff;
@@ -71,11 +74,7 @@ i {
     #grid-banner{ 
       background: url(h1_hero.jpg);
     }
-    #images{
-      display: grid !important;
-      grid-template-rows: repeat(6,2fr)  !important;
-    }
-   
+    
     .img-footer img{
       width: 100px !important;
     }
@@ -86,12 +85,24 @@ i {
     #latest-navbar .navbar-nav a{
       padding: 10px;
     }
+   
+}
+@media screen and (max-width:483px){
+  .email-wrapper{
+    margin-top: -200px;
+  }
+  #shop{
+    margin-top: -30px !important;
+  }
+  #shop #b{
+    font-size:smaller;
+  }
+  
 }
 
 #b {
   background: url(h1_hero.jpg);
   height: 500px;
- 
   gap: 180px;
 
 }
@@ -166,6 +177,11 @@ height: 400px;
 .star-container {
   display: flex;
 }
+
+
+
+
+
 
 
 
